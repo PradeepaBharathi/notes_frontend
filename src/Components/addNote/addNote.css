@@ -1,0 +1,20 @@
+.note-box{
+    margin-top:40px ;
+}
+#submit{
+    color: black !important;
+        background-color: #e3bd50;
+        height: 50px;
+        border-style: none;
+        border-radius: 5px;
+        font-size: larger;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text{
+    height: 10px;
+}
+.addNote{
+    display: flex;
+    flex-direction: row;
+}

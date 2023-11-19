@@ -1,0 +1,77 @@
+*{
+    margin: 4px;
+    padding:1px;
+  
+       
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 20px;
+}
+
+
+
+.login-header{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.login-box {
+    margin-left: 80px;
+    padding: 18px;
+    border: 1px solid#e3bd50;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    
+}
+
+.login-img {
+   width: 30vw;
+   margin: 10px;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+
+    gap:10px;
+   
+}
+.login-button,.signup-button{
+    color:black !important;
+    background-color: #e3bd50;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: larger;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+@media only screen and (max-width:564px) {
+    .login-box {
+        display: flex;
+        flex-direction: column;
+        margin-left: -80px;
+        margin-right: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textfield {
+        height: 50px !important;
+    }
+    img{
+        visibility: hidden;
+    }
+}

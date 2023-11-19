@@ -1,0 +1,24 @@
+.home-container{
+margin-top: 10px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.dark {
+    background-color: #2d3941 !important;
+    color: whitesmoke !important;
+}
+.note-button{
+        color: black !important;
+        background-color: #e3bd50;
+        height: 60px;
+       
+            border-style: none;
+            border-radius: 5px;
+            font-size: larger;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+}

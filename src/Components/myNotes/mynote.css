@@ -1,0 +1,28 @@
+.individual-blog {
+   
+    flex: 0 1 calc(50% - 20px);
+   width:70vw;
+    border-radius: 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out
+    }
+
+.individual-blog:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    
+}
+.card-header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+@media (max-width: 320px) {
+    .individual-blog {
+        margin-top: 20px;
+        flex: 0 1 80%;
+        /* Full width when max-width is 320px or less */
+        max-width: none;
+    }
+    .note-container{
+        margin-top: 40em;
+    }
+}

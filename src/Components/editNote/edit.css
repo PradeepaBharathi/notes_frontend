@@ -1,0 +1,9 @@
+img{
+    border-radius: 40px;
+}
+@media (max-width: 320px) {
+    img{
+        visibility: hidden;
+    }
+    
+}
