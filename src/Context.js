@@ -3,7 +3,7 @@ import axios from "axios"
 import { useParams } from "react-router-dom";
 
 const GlobalContext = React.createContext();
-const BASE_URL = "http://localhost:9000"
+const BASE_URL = "https://backendnote-jy9w.onrender.com";
 export const GlobalProvider = ({ children }) => {
   
     const [details,setDetails] = useState({ email: "" })
@@ -96,7 +96,7 @@ export const GlobalProvider = ({ children }) => {
  const getNotesByName = async (name) => {
    try {
      const response = await axios.get(
-       `http://localhost:9000/notes-name/${name}`,
+       `https://backendnote-jy9w.onrender.com/notes-name/${name}`,
        {
          headers: {
            "x-auth-token": localStorage.getItem("token"),

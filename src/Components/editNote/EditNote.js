@@ -9,7 +9,7 @@ import axios from 'axios';
 import { useSelector } from 'react-redux';
 function EditNote() {
     const [message, setMessage] = useState("")
-  const Base_URL = "http://localhost:9000";
+  const Base_URL = "https://backendnote-jy9w.onrender.com";
   const lightTheme = useSelector((state) => state.themeKey);
    const { id } = useParams();
    const navigate = useNavigate();

@@ -33,7 +33,7 @@ export default function AllBlog({
   const navigate = useNavigate();
   const [openDialog, setOpenDialog] = React.useState(false);
    const lightTheme = useSelector((state) => state.themeKey);
-  const Base_URL = "http://localhost:9000";
+  const Base_URL = "https://backendnote-jy9w.onrender.com";
   const handleEdit = () => {
     navigate(`/header/edit-note/${id}`);
   };
