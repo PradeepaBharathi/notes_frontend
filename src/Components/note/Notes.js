@@ -19,9 +19,7 @@ function Note() {
     getAllNotes();
   }, []);
 
-  const handleNav = () => {
-    window.location.reload()
-  }
+ 
      const handleSearch = async () => {
       try {
         const response = await getNotesByName(searchTerm);
@@ -69,9 +67,7 @@ function Note() {
           <h1>No notes found</h1>
         )}
       </div>
-      <button className="button" onClick={handleNav}>
-        Back
-      </button>
+      
     </div>
   );
 }
